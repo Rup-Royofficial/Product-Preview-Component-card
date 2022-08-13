@@ -1,6 +1,7 @@
 # Frontend Mentor - Product preview card component
 
-![Design preview for the Product preview card component coding challenge] https://roysparfum.netlify.app/
+![Design preview for the Product preview card component coding challenge]
+ https://roysparfum.netlify.app/
 
 ## Welcome! 👋
 
