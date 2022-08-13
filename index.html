@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet"  href="./style.css">
+        <title>Frontend Mentor | Product preview card component</title>
+    </head>
+    <body>
+        <div class="main_container">
+            
+            <article class="main_image">
+                <picture>
+                    <!-- for this we are checking for a device width greater than 768 which are usually tablets -->
+                    <!-- so when min-width is more than 768px or 640px, then the desktop image will show numbers are not exact but taken in general-->
+                    <source media="(min-width: 640px)" srcset="./images/image-product-desktop.jpg">
+                    <img src="./images/image-product-mobile.jpg" alt="">
+                </picture>
+            </article>
+
+            <article class="content">
+                <h2>PERFUME</h2>
+                <h1 class="mainHeader">Gabrielle Essence Eau De Parfum</h1>
+                <p class="paragraph">
+                    A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                    Perfumer-Creator for the House of CHANEL.
+                </p>    
+                <ul>
+                    <li class="price">$149.99</li>
+                    <li><strike>$169.99</strike></li>
+                </ul>
+                <button type="button" class="butt"><img src="./images/icon-cart.svg">Add to Cart</button>
+            </article>
+        </div>
+        <div class="acknowledgements">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://www.linkedin.com/in/rupayan-roy-7a787b226/">Rupayan Roy</a>.
+        </div>
+    </body>
+</html>
